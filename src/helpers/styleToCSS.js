@@ -1,6 +1,7 @@
 /* @flow */
 
-import {isUnitlessNumber} from 'react-dom/lib/CSSProperty';
+import ReactDom from "react-dom";
+const isUnitLessNumber = ReactDom.isUnitLessNumber;
 
 type StyleDescr = {[key: string]: number | string};
 
